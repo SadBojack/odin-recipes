@@ -1,0 +1,42 @@
+.header, .list {
+    font-style: Arial, Sans-serif;
+}
+
+.header {
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
+
+h2.header {
+    font-size: 25px;
+}
+
+.contents {
+    font-size: 20px;
+    text-align:justify;
+}
+
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto
+}
+
+div {
+    text-align: center;
+}
+
+.list {
+    display: inline-block;
+    text-align: left;
+    font-size: 30px;
+}
+.list.recipe{
+    font-size: 20px;
+}
