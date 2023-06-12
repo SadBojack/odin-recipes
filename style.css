@@ -1,22 +1,69 @@
-.header, .list {
-    font-style: Arial, Sans-serif;
+body {
+    background-color: lavender;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    background-color: white;
+    border: 3px black solid;
+    border-radius: 10px;
+    width: 50%;
 }
 
 .header {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: pink;
+    width: 80%;
+    margin: 20px auto;
     font-size: 40px;
-    font-weight: bold;
-    color: blue;
-    text-align: center;
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 20px auto;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: violet;
+}
+
+.container ul, .container a {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    color: gray;
 }
 
 h2.header {
     font-size: 25px;
+    width: 30%;
 }
 
 .contents {
+    width: 80%;
+    margin: auto;
+    background-color: pink;
+    border-radius: 20px;
+    padding: 20px;
     font-size: 20px;
-    text-align:justify;
+    text-align:center;
 }
+
+p.contents {
+    background-color: peachpuff;
+}
+
 
 
 
@@ -25,7 +72,8 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 400px;
-    height: auto
+    height: auto;
+    border-radius: 20px;
 }
 
 div {
@@ -37,6 +85,11 @@ div {
     text-align: left;
     font-size: 30px;
 }
-.list.recipe{
+.list.recipe, ol.contents{
     font-size: 20px;
+    background-color:azure;
+    padding: 20px 40px;
+    border-radius: 30px;
+    text-align: justify;
+    width: 70%;
 }
